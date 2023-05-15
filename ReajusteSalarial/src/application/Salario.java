@@ -2,7 +2,7 @@ package application;
 
 public class Salario {
 
-	public String name;
+	public String nome;
 	public double salarioBruto;
 	public double desconto;
 	
@@ -15,7 +15,7 @@ public class Salario {
 	}
 	
 	public String toString() {
-		return name + ", $ " + String.format("%.2f", salarioLiquido());
+		return nome + ", $ " + String.format("%.2f", salarioLiquido());
 	}
 
 }
