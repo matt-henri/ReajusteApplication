@@ -22,14 +22,14 @@ public class Reajuste {
 		emp.desconto = sc.nextDouble();
 		
 		System.out.println();
-		System.out.println("Salário Liquido: " + emp);
+		System.out.println("Salário Liquido: " + emp.salarioLiquido());
 		System.out.println();
-		System.out.println("Percentagem para reajuste: ");
+		System.out.print("Percentagem para reajuste: ");
 		double porcentagem = sc.nextDouble();
 		emp.reajusteSalarial(porcentagem);
 		
 		System.out.println();
-		System.out.println("Salário com reajuste: " + emp);
+		System.out.print("Salário com reajuste: " + emp.salarioLiquido());
 		
 		
 		
